@@ -1,0 +1,73 @@
+* {
+  border-radius: 3px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  initial-letter: 0em;
+  line-height: 20px;
+}
+main {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  background: linear-gradient(to top right, #ff512f, #dd2476);
+  display: flex;
+}
+.container {
+  height: 410px;
+  width: 400px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+h1::before {
+  content: url(images/sign_up_icon.svg.png);
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+p,
+input {
+  color: #7a7b7f;
+  font-weight: bold;
+  font-size: 14px;
+}
+.log_in {
+  font-size: 13px;
+}
+.priv_policy {
+  font-size: 12px;
+}
+a {
+  color: #e52e66;
+  text-decoration: none;
+}
+
+/* доделать грид*/
+form {
+  display: grid;
+}
+
+form input {
+  padding-left: 15px;
+  border: none;
+  background-color: #f0f0f0;
+  height: 40px;
+  margin-top: 15px;
+}
+[type="text"] {
+  width: 50%;
+}
+[type="email"],
+[type="password"],
+[type="submit"] {
+  width: 100%;
+  border: none;
+}
