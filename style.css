@@ -52,22 +52,28 @@ a {
 
 /* доделать грид*/
 form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
-form input {
-  padding-left: 15px;
+input {
+  padding: 0 0 0 15px;
   border: none;
   background-color: #f0f0f0;
   height: 40px;
   margin-top: 15px;
 }
-[type="text"] {
-  width: 50%;
-}
-[type="email"],
-[type="password"],
+
 [type="submit"] {
-  width: 100%;
-  border: none;
+  height: 50px;
+  background-color: #ea355a;
+  color: #ffffff;
+  font-size: 18px;
+  border-bottom: 2px solid #bd1962;
 }
+
+/* как сделать расстояние 15рх?
+
+[name="last_name"] {
+  margin-left: 15px;
+}*/
