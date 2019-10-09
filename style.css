@@ -77,3 +77,10 @@ input {
 [name="last_name"] {
   margin-left: 15px;
 }*/
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.name input {
+  width: 180px;
+}
